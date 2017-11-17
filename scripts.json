@@ -1,0 +1,8 @@
+[
+    "./node_modules/npm-modernizr/modernizr.js",
+    "./node_modules/jquery/dist/jquery.js",
+    "./node_modules/jquery-ui-npm/jquery-ui.js",
+    "./node_modules/jquery.ajaxq/build/jquery.ajaxq.js",
+    "./node_modules/gsap/TweenLite.js",
+    "./node_modules/gsap/TweenMax.js"
+]
