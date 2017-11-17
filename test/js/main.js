@@ -1,17 +1,3 @@
-$.fn.block = function() {
-  var self = $(this);
-
-  self.attr('class', 'block')
-      .css('width', '50px')
-      .css('height', '50px')
-      .css('background-color', 'white')
-      .click(function(e) {
-        console.log('click!');
-      });
-
-  return this;
-};
-
 window.grid = function($) {
   var container = $('#container');
 
@@ -32,3 +18,17 @@ $('#helloWorld').click(function(e) {
     random: 213678920
   });
 });
+
+$.fn.block = function() {
+  var self = $(this);
+
+  self.attr('class', 'block')
+      // .css('width', '50px')
+      // .css('height', '50px')
+      .css('background-color', 'white')
+      .click(function(e) {
+        console.log('click!');
+      });
+
+  return this;
+};
